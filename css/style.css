@@ -1,0 +1,101 @@
+
+.wraper{
+	font-family: sans-serif;
+	width: 960px;
+	margin: 20px auto;
+}
+header{
+	width: auto;			
+	height: 50px;
+	margin-top: -5px;
+	background-color: #eaeaea;
+	padding-left: 10px;
+}
+header h1{
+
+	background:  url(../img/asian-paint-logo.png);
+	background-repeat: no-repeat;
+	text-indent: -10000px;
+	height: 39px ;
+	width:211px;
+	float:left;
+	margin-top:6px; 
+
+}
+header nav li{
+	padding-right: 0px;
+	display: inline;
+	font-size: 12px;
+}
+header nav ul{
+	padding-right: 10px;
+	margin-top:25px;
+	float:right;
+}
+header nav a{
+	text-decoration: none;
+	color:#666;
+}
+header nav a:hover {
+	text-decoration: underline;
+	color:black;
+}
+header nav li:after{
+	content: "|";
+	padding-left: 6px;
+}
+header nav li:last-child:after{
+	content:'';
+}
+.banner{
+	margin-top: px;5
+	float: left;
+	clear: both;
+
+}
+.grid_4 img{
+	float: left;
+	margin-bottom: 15px;
+}
+
+
+
+}
+.contentDes p{
+	width: 960px
+	height:auto;
+	font-size:5px;
+	color: #666
+	
+}
+.contentDes span{
+	font-size: 10px;
+	font-weight: bold;
+}
+.container_12{
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+#grid2{
+	padding-left: 10px;
+	padding-right:10px;
+}
+
+footer{
+	width: auto;			
+	height: 30px;
+	background-color: #eaeaea;
+	clear: both;
+	font-size: 10px;
+	padding-top: 3px;
+	padding-left: 5px;
+	
+}
+footer ul{
+	float: right;
+	margin-top: -35px;
+	padding-right: 5px;
+}
+footer li{
+	display: inline;
+}
